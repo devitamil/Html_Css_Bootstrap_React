@@ -1,0 +1,87 @@
+
+.sambavam{
+    box-shadow: 10px 10px 50px rgb(185, 13, 13);
+} 
+
+.dev{
+    background-image: linear-gradient(rgb(180, 228, 236),rgb(38, 14, 171));
+}   
+.face{
+    background-image: linear-gradient(rgb(225, 101, 12),rgb(134, 115, 238));
+    font-size: 20px ;
+    font-weight: bolder;
+}
+.log{
+    background-image: linear-gradient(rgb(160, 199, 29),rgb(237, 46, 164));
+    font-size: 20px ;
+    font-weight: bolder;
+}
+.inputBox{
+    position: relative;
+
+}
+.inputBox input{
+    padding:10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background:#1d2b3a;
+    border-radius:5px;
+    color: #fff;
+    font-size:1em;
+    transition:5s;
+}
+.inputBox span{
+    position: absolute;
+    left:0;
+    padding:10px;
+    pointer-events: none;
+    font-size:1em;
+    color:white;
+    transition:0.5s;
+}
+.inputBox input:valid ~span,
+.inputBox input:focus ~span{
+    color: #00ffd5; 
+    transform:translateX(10px) translateY(-7px);
+    font-size:0.75em;
+    padding:0 10px;
+    border-left:1px solid #00ffd5;
+    border-right:1px solid #00ffd5;
+    letter-spacing:0.2em;
+    background: #00ffd5;
+    color: white;
+}
+.inputBox input:valid ,
+.inputBox input:focus{
+    border: 1px solid #00ffd5;
+}
+.inputBox select{
+    padding:10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background:#1d2b3a;
+    border-radius:5px;
+    color: #fff;
+    font-size:1em;
+    transition:5s;;
+}
+.inputBox span{
+    position: absolute;
+    left:0;
+    padding:10px;
+    pointer-events: none;
+    font-size:1em;
+    color:white;
+    transition:0.5s;
+}
+.inputBox select:valid ~span,
+.inputBox select:focus ~span{
+    color: #00ffd5; 
+    transform:translateX(10px) translateY(-7px);
+    font-size:0.75em;
+    padding:0 10px;
+    border-left:1px solid #00ffd5;
+    border-right:1px solid #00ffd5;
+    letter-spacing:0.2em;
+    background: #00ffd5;
+    color: #1d2b3a;
+}
+
